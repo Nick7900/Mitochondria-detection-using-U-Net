@@ -10,11 +10,16 @@ We will classify our detected mitochondria using computer vision techniques such
 
 The result will be a binary outcome (1 or 0). If we detect a mitochondria, the value will be 1, else it will be 0.
 
-The goal of this classification is to learn a Network to automatically detect mitochondira. The performance of the model will then be evaluated with a Intersect over Union-score (IoU-score)
+![Capture_2](https://user-images.githubusercontent.com/70948370/170184696-3c3a1970-5f7b-4cc1-bf08-5307384ee28a.JPG)
+
+The goal of this classification is to learn a Network to automatically detect mitochondira. The performance of the model will then be evaluated with a Intersect over Union-score (IoU-score).
+
+![Untitled-1](https://user-images.githubusercontent.com/70948370/170184263-38040f12-6365-44d1-96c5-7ab72fbef6cd.jpg)
 
 
 ## Data
-The data comes from the Kaggle challenge: "Z by HP Unlocked Challenge 3 - Signal Processing".
+The data comes from the Electron Microscopy Dataset from the publication 'Learning for Structured Prediction
+Using Approximate Subgradient Descent with Working Sets':
 https://www.epfl.ch/labs/cvlab/data/data-em/
 
 ## The Task
